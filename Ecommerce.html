@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fake Store</title>
+  <link rel="stylesheet" href="./Ecommerce.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">FakeStore</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+        <li class="cart-icon">
+          🛒 <span id="cart-count">0</span>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <!-- Cart Sidebar -->
+  <div id="cart-sidebar" class="cart-sidebar">
+    <h2>Your Cart</h2>
+    <div id="cart-items"></div>
+    <button id="close-cart">Close</button>
+  </div>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>Welcome to Fake Store</h1>
+    <p>Your one-stop shop for amazing products!</p>
+  </header>
+
+  <!-- Products Section -->
+  <section class="products-section">
+    <div id="products" class="products-grid">
+      <!-- Products will be injected here by JavaScript -->
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 FakeStore. All rights reserved.</p>
+  </footer>
+
+  <script src="./Ecommerce.js"></script>
+</body>
+</html>
